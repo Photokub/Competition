@@ -14,5 +14,12 @@
     /* grid-template-rows: repeat(auto-fit, minmax(120px, 1fr)); */
     grid-template-rows: repeat(2, 145px);
     padding: 0 160px 0 60px;
-    grid-column-gap:80px;
+    grid-column-gap:30px;
+}
+
+@media  screen and (max-width:984px) {
+    .intro{
+        grid-column-gap:5px;
+        padding-right: 50px;
+    }
 }
