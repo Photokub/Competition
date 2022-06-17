@@ -1,0 +1,17 @@
+.place__paragraph-container{
+    padding-left:60px;
+    padding-right: 150px;
+    padding-bottom:25px;
+    box-sizing: border-box;
+
+
+    
+}
+
+
+.place:nth-child(2) .place__paragraph-container{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-left: 60px;
+    padding-right: 150px;
+}
